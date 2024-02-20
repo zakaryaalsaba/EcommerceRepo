@@ -1,0 +1,26 @@
+GET http://localhost:3000/carts/3
+
+###
+GET http://localhost:3000/carts/3/1
+
+###
+PATCH http://localhost:3000/carts/3
+Content-Type: application/json
+
+{
+    "Quantity": 6
+}
+###
+
+POST http://localhost:3000/carts
+Content-Type: application/json
+
+{
+    "UserID": 3,
+    "ProductID": 1,
+    "Quantity": 6
+}
+
+###
+
+DELETE http://localhost:3000/carts/21

@@ -1,0 +1,48 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/3
+
+###
+PATCH http://localhost:3000/users/3
+Content-Type: application/json
+
+{
+    "UserName": "test@test.com",
+    "FirstName": "FirstName TEST 6",
+    "LastName": "LastName TEST 63",
+    "Email": "test@test.com",
+    "Password": "123",
+    "PhoneNumber": "PhoneNumber TEST 6",
+    "MobileNumber": "MobileNumber TEST 63",
+    "UserTypeId":1,
+    "StatusId":1
+}
+
+###
+POST http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+    "UserName": "Email@email18.com",
+    "FirstName": "FirstName TEST 6",
+    "LastName": "LastName TEST 6",
+    "Email": "Email@email18.com",
+    "Password": "123456",
+    "PhoneNumber": "PhoneNumber TEST 6",
+    "MobileNumber": "MobileNumber TEST 6",
+    "UserTypeId":1,
+    "StatusId":1
+}
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "UserName": "Email@email18.com",
+    "Password": "123456"
+}
+
+###
+DELETE http://localhost:3000/users/5

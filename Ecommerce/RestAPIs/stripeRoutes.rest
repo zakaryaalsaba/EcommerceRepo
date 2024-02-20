@@ -1,0 +1,53 @@
+
+# POST http://localhost:3000/stripeRoutes/createcustomer
+# Content-Type: application/json
+
+# {
+#     "email": "zakarya.alsaba1@gmail.com"
+# }
+
+# ###
+
+# POST http://localhost:3000/stripeRoutes/checkout
+# Content-Type: application/json
+
+# {
+#     "customerId": "cus_PUq1BjOA2QTSsw"
+# }
+POST http://localhost:3000/stripeRoutes/processpayment
+Content-Type: application/json
+
+{
+    "token": "tok_1OgbtDKl5JC95HqaUoYj0B7p", //token shouldn't be used before
+    "amountVal": "2010",
+    "email": "zzz.abod@gmail.com"
+}
+###
+POST http://localhost:3000/stripeRoutes/checkout
+Content-Type: application/json
+
+{
+    "customerId": "zaHkarya.alsaba1@gmail.com"
+}
+###
+POST http://localhost:3000/stripeRoutes/checkout
+Content-Type: application/json
+
+{
+    "email": "hoda.abod@gmail.com"
+}
+###
+POST http://localhost:3000/stripeRoutes/checkout
+Content-Type: application/json
+
+{
+    "customerId": "zakarya.alsaba@gmail.com"
+}
+
+###
+POST http://localhost:3000/stripeRoutes/checkout
+Content-Type: application/json
+
+{
+    "customerId": "Leen.alsaba@gmail.com"
+}

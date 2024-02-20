@@ -1,0 +1,5 @@
+GET http://localhost:3000/productcategories
+
+###
+GET http://localhost:3000/productcategories/1
+

@@ -1,0 +1,35 @@
+GET http://localhost:3000/venders
+
+
+###
+
+GET http://localhost:3000/venders/1
+
+###
+
+GET http://localhost:3000/vendorProducts/3
+
+###
+
+PATCH http://localhost:3000/venders/3
+Content-Type: application/json
+
+{
+    "VendorName": "VendorNameTest 51",
+    "UserID": 3,
+    "Description": "Description TEST 6"
+}
+###
+
+POST http://localhost:3000/venders
+Content-Type: application/json
+
+{
+    "VendorName": "VendorNameTest 510",
+    "UserID": 3,
+    "Description": "Description TEST 6"
+}
+
+###
+
+DELETE http://localhost:3000/venders/5

@@ -1,0 +1,48 @@
+GET https://f9c34lpira.execute-api.us-east-2.amazonaws.com/prod/users/
+
+###
+GET https://f9c34lpira.execute-api.us-east-2.amazonaws.com/prod/users/29
+
+###
+PATCH https://f9c34lpira.execute-api.us-east-2.amazonaws.com/prod/users/27
+Content-Type: application/json
+
+{
+    "UserName": "test@test.com",
+    "FirstName": "FirstName TEST 6",
+    "LastName": "LastName TEST 63",
+    "Email": "test@test.com",
+    "Password": "123",
+    "PhoneNumber": "PhoneNumber TEST 6",
+    "MobileNumber": "MobileNumber TEST 63",
+    "UserTypeId":1,
+    "StatusId":1
+}
+
+###
+POST https://f9c34lpira.execute-api.us-east-2.amazonaws.com/prod/users/register
+Content-Type: application/json
+
+{
+    "UserName": "Email10@email180.com",
+    "FirstName": "FirstName TEST 6",
+    "LastName": "LastName TEST 6",
+    "Email": "Email10@email18.com",
+    "Password": "123456",
+    "PhoneNumber": "PhoneNumber TEST 6",
+    "MobileNumber": "MobileNumber TEST 6",
+    "UserTypeId":1,
+    "StatusId":1
+}
+
+###
+POST https://f9c34lpira.execute-api.us-east-2.amazonaws.com/prod/users/login
+Content-Type: application/json
+
+{
+    "UserName": "Email10@email180.com",
+    "Password": "123456"
+}
+
+###
+DELETE https://f9c34lpira.execute-api.us-east-2.amazonaws.com/prod/users/30
