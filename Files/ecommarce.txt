@@ -1,0 +1,23 @@
+Aws.amazon.com
+zakarya.alsaba+123@gmail.com
+Leen@lana123
+google voice
+‪(972) 836-9682‬
+
+ecommercedb.c5ciw448w5no.us-east-2.rds.amazonaws.com
+admin
+admin$admin$admin123$456
+port: 3306
+
+"C:\EcommerceAWS" for lambdaFunction
+
+export const handler = async (event) => {
+  // TODO implement
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify('Hello from Lambda!'),
+  };
+  return response;
+};
+
+https://stackoverflow.com/questions/53258297/access-to-xmlhttprequest-has-been-blocked-by-cors-policy

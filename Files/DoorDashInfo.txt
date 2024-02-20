@@ -1,0 +1,6 @@
+{
+  "developer_id": "4f25ce09-28ae-4eb1-a673-f0282f4ea7a3",
+  "key_id": "a4e7300a-ce3a-49c8-8f61-d54f1c882204",
+  "signing_secret": "wG_RukN6jKs4bdd02wwPFzeCf5Kp5BrKA-8Uii1Gfjg"
+}
+https://www.youtube.com/watch?v=8xg-vDb8d30

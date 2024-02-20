@@ -1,0 +1,34 @@
+Order Summary with valid values
+Tax on the Departments
+8.25%
+Availablity times?
+Checkout to store values in the database
+Small/thiny images
+add offer?
+Departments filter?
+
+Fix but on MyBaskets when the quantity gets changed (Expand) window
+
+Page:
+ProdsByName/seach - done
+venderDetails - done
+Main: Remove header,..
+add offer?
+Departments filter?
+Checkout in All basket
+Availablity times?
+CheckOut edit to add more detials
+Apple payment if possible
+Order page to reorder again
+Invoices page?
+edit MyBaskets
+show cart on MyBaskets page 
+Add Proceed to checkout per cart
+CheckOut All? go to CheckOut page
+
+domains:
+halcarts.com
+halshope.com
+zmcart.com
+cartbehind.com
+

@@ -1,0 +1,86 @@
+https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2#
+Root User:
+zalsaba@icloud.com
+Leen@lana123
+closed on 10/10/2023
+
+Leen@lana1981
+
+zakarya.alsaba@gmail.com
+Asdfghjkl@lllp1231
+
+Amazon Cognito
+User pools
+poolPTOsystem
+App client: ptoAppClien
+
+CDKDeployUser
+Leen@lana123
+
+database user and pass:
+user: admin
+pass: adminadmin001122
+
+Region: US East (N. Virginia)
+
+How to use AWS Cognito to build an Authentication / Login System
+https://youtu.be/8a0vtkWJIA4
+
+Secure your API Gateway with Amazon Cognito User Pools 
+https://youtu.be/oFSU6rhFETk
+
+https://aws.amazon.com/free/database/
+12 MONTHS FREE
+750 hours per month of db.t2.micro, db.t3.micro, and db.t4g.micro Single-AZ instance usage (applicable database engines)
+20 GB of general purpose (SSD) database storage
+20 GB of storage for database backups and database snapshots
+
+To connect to mySQL db:
+https://www.youtube.com/watch?v=Ng_zi11N4_c
+
+To create a new Lamdba function that connect to the database:
+Python code:
+https://www.youtube.com/watch?v=vyLvmPkQZkI
+
+AWS API Gateway to Lambda. Parameters provided:
+https://www.youtube.com/watch?v=uFsaiEhr1zs&t=412s
+
+Host:ptodb.cbb8etc7svmf.us-west-2.rds.amazonaws.com
+
+cdk diff // to compare between AWS and Local, will retreive the differences.
+cdk deploy
+cdk destory [ptosystembackend] //stack name that is in app.py file
+
+Free AWS stuff:
+https://aws.amazon.com/free/?trk=fce796e8-4ceb-48e0-9767-89f7873fac3d&sc_channel=ps&s_kwcid=AL!4422!3!592542020599!e!!g!!aws&ef_id=EAIaIQobChMIqY_f-ffA_QIVfROtBh1D_gEOEAAYASAAEgJ-afD_BwE:G:s&s_kwcid=AL!4422!3!592542020599!e!!g!!aws&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
+
+RequestStatus the action the current action and you are about to take..
+
+Read me:
+C:\Vue-projects\RDSQuery:
+Where you can find all lambda functions that needs to be installed.
+
+C:\Vue-projects\ptosystembackend:
+Where you have cdk to create S3 and others.
+
+C:\Vue-projects\ptosystem:
+Where the Font app is 
+
+
+
+https://ptosystem.auth.us-east-1.amazoncognito.com
+
+
+npm cognito js identity
+
+https://www.youtube.com/watch?v=J58ictgNquI
+
+Tasks:
+Rebooting issue
+Caching issue
+Updating NOTES and isArchive.
+
+Next steps:
+	- create Lambda and API for gettingBalanceByEmpId
+	- Populate it.
+	- Calculate Balance since the Emp was hired or a balanceValue/Date
